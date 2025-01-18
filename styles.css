@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #4CAF50; /* Bright green background */
+    color: #fff;
+    padding: 1em 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #333; /* Dark background for navigation */
+    margin-bottom: 1em;
+}
+
+nav ul li {
+    margin: 0 1em;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5em;
+    border-radius: 5px;
+    background-color: #555; /* Slightly lighter background for links */
+}
+
+nav ul li a:hover {
+    background-color: #777; /* Hover effect */
+}
+
+section {
+    padding: 2em;
+    margin: 1em 0;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.project {
+    margin-bottom: 1em;
+}
+
+.project h3 {
+    color: #4CAF50; /* Highlight project titles */
+}
+
+.project p {
+    color: #666; /* Slightly darker text for project descriptions */
+}
+
+#contact {
+    background-color: #f9f9f9; /* Light background for contact section */
+    border: 1px solid #ddd;
+    padding: 1em;
+    text-align: center;
+}
+
+#contact p {
+    margin: 0.5em 0;
+}
+
+#contact a {
+    color: #4CAF50; /* Highlight contact links */
+    text-decoration: none;
+}
+
+#contact a:hover {
+    text-decoration: underline;
+}
